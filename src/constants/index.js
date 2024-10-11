@@ -3,28 +3,10 @@ import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpeg";
 import project5 from "../assets/projects/project-5.png";
-import python from "../assets/python.png";
-import c from "../assets/C.png";
-import cpp from "../assets/Cpp.png";
-import java from "../assets/java.png";
-import mysql from "../assets/mysql.png";
-import kmb from "../assets/kmb.png";
-import itb from "../assets/itb.png";
-import itbjazz from "../assets/itbjazz.png";
-import hmif from "../assets/hmif.jpeg";
-
 
 export const HERO_CONTENT = `I am a second year undergraduate from Bandung's Institute of Technology with a knack for crafting robust and scalable web applications. During my journey of learning technologies, I have honed my skills mostly in front-end technologies like React and Next.js, as well as back-end technologies like MySQL and MongoDB. My goal is to improve and expand my skills and knowledge to learn new things around technologies.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile informatic undergraduate who is aiming to become full stack developer with a passion for creating efficient and user-friendly web applications. As an undergraduate who is aiming to be a full stack developer, I have worked with a variety of technologies, including HTML, CSS, React, Next.js, Tailwind CSS, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a state where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Other than web developments, I've also worked with programming languages, such as C, C++, python, java, and javascript. Outside of coding, I enjoy staying active and exploring new technologies. To fill my boredom, I like to play games and watch shows`;
-
-export const ORGANIZATION = {
-  kmbicon: kmb,
-  itbjazzicon: itbjazz,
-  hmificon: hmif,
-  itbicon: itb,
-}
-
 
 export const EXPERIENCES = [
   {
@@ -98,7 +80,7 @@ export const PROJECTS = [
     link: "https://github.com/19623248Git/14_HealthyU",
     description:
       "A mobile-based website that allows you to track hospitals based on each specialization and its distance from each ITB campus.",
-    technologies: ["Tailwind CSS", "Next.js", "Typescript", "MongoDB"],
+    technologies: ["TailwindCSS", "Next.js", "Typescript", "MongoDB"],
   },
   {
     title: "Sea Salon",
