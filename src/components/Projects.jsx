@@ -17,13 +17,15 @@ const Projects = () => {
               <div className="w-full lg:w-3/4 max-w-xl">
                 <a href={projects.link} className="text-2xl mb-2 hover:text-purple-500 hover:cursor-pointer active:text-purple-900 font-semibold">{projects.title}</a>
                 <p className="mb-4 text-neutral-500">{projects.description}</p>
-                {projects.technologies.map((tech, index2) => (
-                    <span
-                      key={index2}
-                      className="mr-1 rounded-md text-purple-800 bg-neutral-900 px-2 py-1 text-sm font-medium">
-                      {tech}
-                    </span>
-                ))}
+                <div className="flex flex-wrap gap-2">
+                  {projects.technologies.map((tech, index2) => (
+                      <span
+                        key={index2}
+                        className="rounded-md text-purple-800 bg-neutral-900 px-2 py-1 text-sm font-medium">
+                        {tech}
+                      </span>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
