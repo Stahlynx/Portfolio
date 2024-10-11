@@ -26,16 +26,16 @@ const Experience = () => {
       <div className='py-4 lg:mb-35'>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <div className="p-4">
-            <img className="size-40" src="src/assets/kmb.png" alt="KMB ITB" />
+            <img className="size-40" src="/src/assets/kmb.png" alt="KMB ITB" />
           </div>
           <div className="p-4">
-            <img className="size-40" src="src/assets/itbjazz.png" alt="ITBJazz" />
+            <img className="size-40" src="/src/assets/itbjazz.png" alt="ITBJazz" />
           </div>
           <div className="p-4">
-            <img className="size-40" src="src/assets/hmif.jpeg" alt="HMIF ITB" />
+            <img className="size-40" src="/src/assets/hmif.jpeg" alt="HMIF ITB" />
           </div>
           <div className="p-4">
-            <img className="size-40" src="src/assets/itb.png" alt="ITB" />
+            <img className="size-40" src="/src/assets/itb.png" alt="ITB" />
           </div>
         </div>
       </div>
