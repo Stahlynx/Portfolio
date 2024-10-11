@@ -26,19 +26,19 @@ const Tech = () => {
           <RiNextjsLine className="size-20 text-7xl text-gray-600"/>
         </div>
         <div className="rounded-2xl border-4 border-purple-900 p-4">
-          <img className="text-7xl text-gray-600 size-20" src="/src/assets/java.png" alt="" />
+          <img className="text-7xl text-gray-600 size-20" src="/java.png" alt="" />
         </div>
         <div className="rounded-2xl border-4 border-purple-900 p-4">
-          <img className="text-7xl text-gray-600 size-20" src="/src/assets/python.png" alt="" />
+          <img className="text-7xl text-gray-600 size-20" src="/python.png" alt="" />
         </div>
         <div className="rounded-2xl border-4 border-purple-900 p-4">
-          <img className="text-7xl text-gray-600 size-20" src="/src/assets/c.png" alt="" />
+          <img className="text-7xl text-gray-600 size-20" src="/C.png" alt="" />
         </div>
         <div className="rounded-2xl border-4 border-purple-900 p-4">
-          <img className="text-7xl text-gray-600 size-20" src="/src/assets/cpp.png" alt="" />
+          <img className="text-7xl text-gray-600 size-20" src="/Cpp.png" alt="" />
         </div>
         <div className="rounded-2xl border-4 border-purple-900 p-4">
-          <img className="text-7xl text-gray-600 size-20" src="/src/assets/mysql.png" alt="" />
+          <img className="text-7xl text-gray-600 size-20" src="/mysql.png" alt="" />
         </div>
       </div>
     </div>
